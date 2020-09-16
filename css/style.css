@@ -869,8 +869,17 @@ a {
 
 }
 
+
 .story_sec h3:hover{
   color: #f1cd09;
+}
+
+
+
+.text h2,p{
+  color: rgb(100, 100, 100) !important;
+  font-weight: 300 !important;
+
 }
 
 
