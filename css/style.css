@@ -1264,13 +1264,13 @@ iframe {
   font-family: Poppins-Regular;
   font-size: 18px;
   line-height: 1.2;
-  color: #fff;
+  color: #fffFFF;
 }
 
 .txt2 {
   font-family: Poppins-Regular;
   font-size: 15px;
-  line-height: 1.6;
+  line-height: 8.6;
   color: #999999;
 }
 
@@ -1637,4 +1637,6 @@ textarea.input100 {
     opacity: 1;
   }
 }
+
+
 /* Contact End */
