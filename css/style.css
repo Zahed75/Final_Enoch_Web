@@ -559,9 +559,10 @@ a {
   .block-3 .owl-nav .owl-prev, .block-3 .owl-nav .owl-next {
     position: relative;
     display: inline-block;
-    padding: 20px;
+    padding: 56px;
     font-size: 30px;
-    color: #5c626e; }
+    color: #b95813;
+   }
     .block-3 .owl-nav .owl-prev:hover, .block-3 .owl-nav .owl-next:hover {
       color: #25262a; }
     .block-3 .owl-nav .owl-prev.disabled, .block-3 .owl-nav .owl-next.disabled {
