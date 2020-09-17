@@ -997,7 +997,7 @@ footer.footer-section {
 
 /* Ftatures Products Start */
 .ftr_prdct{
-  height: 650px ;
+  height: 100% ;
   width: 100%;
   background-color: rgb(255, 255, 255);
   background-size: cover;
