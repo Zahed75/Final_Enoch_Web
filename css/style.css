@@ -84,11 +84,11 @@ a {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
 
-.site-section {
-  padding: 2.5em 0; }
-  @media (min-width: 768px) {
+/* .site-section {
+  padding: 2.5em 0; } */
+/*   @media (min-width: 768px) {
     .site-section {
-      padding: 5em 0; } }
+      padding: 5em 0; } } */
   .site-section.site-section-sm {
     padding: 4em 0; }
 
@@ -116,8 +116,22 @@ a {
     height: 2px;
     background: #7971ea; }
 
+.site-section h4{
+  text-align: right;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: cursive;
+} 
+.site-section h2{
+
+  font-weight: bold;
+  font-size: 17px;
+  font-family: cursive;
+}
+
 .border-top {
   border-top: 1px solid #edf0f5 !important; }
+
 
 
 /* Navbar */
@@ -199,11 +213,11 @@ a {
     top: 2px;
     margin-left: 20px; }
   .site-navbar .site-navigation.border-bottom {
-    border-bottom: 1px solid #f3f3f4 !important; }
+    border-bottom: 1px solid #e7e7e7 !important; }
   .site-navbar .site-navigation .site-menu {
     margin-bottom: 0; }
     .site-navbar .site-navigation .site-menu .active > a {
-      color: #7971ea; }
+      color: #ffa44f; }
     .site-navbar .site-navigation .site-menu a {
       text-decoration: none !important;
       font-size: 15px;
@@ -216,10 +230,13 @@ a {
         text-transform: uppercase;
         letter-spacing: .05em;
         color: #25262a;
-        font-size: 15px;
-        text-decoration: none !important; }
+        font-size: 17px;
+        text-decoration: none !important; 
+          font-weight: bold;
+      }
+        
         .site-navbar .site-navigation .site-menu > li > a:hover {
-          color: #7971ea; }
+          color: #ff8f26; }
     .site-navbar .site-navigation .site-menu .has-children {
       position: relative; }
       .site-navbar .site-navigation .site-menu .has-children > a {
@@ -908,7 +925,7 @@ a {
 footer.footer-section {
   background: rgba(0, 0, 0, 0) url("../images/footer.jpeg") no-repeat scroll left top / cover;
   padding: 60px 0 50px;
-  margin-top: 20px;
+  margin-top: -1px;
 }
 .bg-with-black {
   position: relative;
