@@ -1291,7 +1291,7 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #e6e6e6;
+ /*  background: #e6e6e6; */
   
 }
 
@@ -1313,7 +1313,7 @@ iframe {
   display: block;
   font-family: Oswald-Medium;
   font-size: 30px;
-  color: #43383e;
+  color: #ffffff;
   line-height: 1.2;
   text-align: left;
   padding-bottom: 35px;
@@ -1562,6 +1562,15 @@ textarea.input100 {
 }
 
 
+.contact_frm{
+  background-image: url(../images/cont.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed;
+  
+  background-position: center;
 
+}
 
 /* Contact End */
