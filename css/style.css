@@ -46,17 +46,11 @@ a {
   right: 0;
   bottom: 0;
   opacity: 0;
-  visibility: hidden; }
+  visibility: hidden; 
 
-.offcanvas-menu .site-wrap {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  z-index: 2;
-  overflow: hidden; }
-  .offcanvas-menu .site-wrap:before {
-    opacity: 1;
-    visibility: visible; }
+}
+
+
 
 .btn {
   text-transform: uppercase;
@@ -150,7 +144,8 @@ margin-bottom: 5px; }
   background: #fff;
   margin-bottom: 0px;
   z-index: 1999;
-  position: relative; }
+  position: relative;
+ }
   .site-navbar.transparent {
     background: transparent; }
   .site-navbar .site-navbar-top {
@@ -464,6 +459,15 @@ margin-bottom: 5px; }
               .site-mobile-menu .site-nav-wrap > li > ul > li > ul > li > a {
                 font-size: 16px;
                 padding-left: 60px; }
+
+                .ml-auto, .mx-auto {
+                  margin-left: auto!important;
+                  /* text-align: center; */
+                  margin-right: auto;
+                  font-size: 18px;
+                  font-weight: bold;
+                  font-family: sans-serif;
+              }
 
 /* Blocks */
 .site-blocks-cover {
@@ -1609,9 +1613,6 @@ textarea.input100 {
 }
 
 /* Contact End */
-
-
-
 
 
 
