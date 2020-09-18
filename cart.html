@@ -103,7 +103,7 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
+              <tr id="demo">
                 <td class="product-thumbnail">
                   <img src="images/p2.jpg" alt="Image" class="img-fluid">
                 </td>
@@ -112,9 +112,9 @@
                 </td>
                 <td>$49.00</td>
                 <td>
-                  <div class="input-group mb-3" style="max-width: 120px;">
+                  <div  id="div1"  class="input-group mb-3" style="max-width: 120px;">
                     <div class="input-group-prepend">
-                      <button class="btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      <button  class="btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
                     </div>
                     <input type="text" class="form-control text-center" value="1" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
                     <div class="input-group-append">
@@ -124,21 +124,21 @@
 
                 </td>
                 <td>$49.00</td>
-                <td><a href="#" class="btn btn-primary btn-sm">X</a></td>
+                <td><button onclick="myFunction()"><a href="#" class="btn btn-primary btn-sm">X</a></button></td>
               </tr>
 
-              <tr>
+              <tr id="demo">
                 <td class="product-thumbnail">
                   <img src="images/p2.jpg" alt="Image" class="img-fluid">
                 </td>
                 <td class="product-name">
-                  <h2 class="h5 text-black">X_WOOD</h2>
+                  <h2 class="h5 text-black">XM_WOOD</h2>
                 </td>
                 <td>$49.00</td>
                 <td>
-                  <div class="input-group mb-3" style="max-width: 120px;">
+                  <div  id="div1"  class="input-group mb-3" style="max-width: 120px;">
                     <div class="input-group-prepend">
-                      <button class="btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      <button  class="btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
                     </div>
                     <input type="text" class="form-control text-center" value="1" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
                     <div class="input-group-append">
@@ -148,7 +148,7 @@
 
                 </td>
                 <td>$49.00</td>
-                <td><a href="#" class="btn btn-primary btn-sm">X</a></td>
+                <td><button onclick="myFunction()"><a href="#" class="btn btn-primary btn-sm">X</a></button></td>
               </tr>
             </tbody>
           </table>
@@ -321,6 +321,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 
 
+  <script>
+    function myFunction() {
+      var myobj = document.getElementById("demo");
+      myobj.remove();
+    }
+    </script>
 
 </body>
 
