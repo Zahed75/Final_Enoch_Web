@@ -64,25 +64,37 @@
           </div>
         </div>
       </div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-        
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg navbar-light bg-transaparent">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent " data-hover="dropdown">
+          <ul class="navbar-nav mx-auto ">
             <li class="nav-item active">
               <a class="nav-link" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="shop.html">Products</a>
-            </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
-         
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="shop.html" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                products
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="shop.html">SPC</a>
+                <a class="dropdown-item" href="shop.html">WPC</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Toilet partition</a>
+              </div>
+            </li>
+
           </ul>
-        </div>
+
         </div>
       </nav>
     </header>
