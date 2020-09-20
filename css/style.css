@@ -459,16 +459,7 @@ margin-bottom: 5px; }
               .site-mobile-menu .site-nav-wrap > li > ul > li > ul > li > a {
                 font-size: 16px;
                 padding-left: 60px; }
-
-                .navbar-light .navbar-toggler {
-                  color: rgb(99 99 99 / 50%);
-                  border-color: rgb(212 212 212 / 10%);
-              } 
-
-.dropdown:hover>.dropdown-menu{
-  display: block;
-}
-
+ 
 
 /* Blocks */
 .site-blocks-cover {
@@ -1619,13 +1610,26 @@ textarea.input100 {
 
 
 
+/* Navbar Customization start */
+.dropdown:hover>.dropdown-menu{
+  display: block;
+}
 
 .navbar ul li a{
-  font-size: 18px;
-  font-family: sans-serif;
-  
+  font-size: 17px;
+  color: #7971ea;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.navbar ul li a:hover{
-  color: salmon!important;
+.navbar-nav ul li a{
+  color: #7971ea!important;
 }
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgb(222 219 219 / 10%);
+}
+
+/* Navbar Customization End */
+
+
