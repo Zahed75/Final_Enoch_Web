@@ -1400,6 +1400,9 @@ input.input100 {
   padding: 0 20px 0 58px;
 }
 
+.map_sction{
+  float: right;
+}
 
 textarea.input100 {
   min-height: 199px;
@@ -1603,8 +1606,24 @@ textarea.input100 {
   background-attachment: fixed;
   
   background-position: center;
+ 
 
 }
+
+.map h3{
+
+text-align: center;
+ margin-top: 5px;
+ font-weight: bold;
+ font-family: sans-serif;
+ color: white;
+
+}
+
+.map{
+  background-color: #000000;
+}
+
 
 /* Contact End */
 
@@ -1631,5 +1650,7 @@ textarea.input100 {
 }
 
 /* Navbar Customization End */
+
+
 
 
