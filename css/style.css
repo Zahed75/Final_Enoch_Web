@@ -1711,11 +1711,42 @@ box-shadow: 0 0 2px 1px rgba(40, 108, 131, 0.5);
 text-align: justify;
 color: #969696;
 
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 16px;
+ 
+   font-size: 16px; 
     line-height: 1.666667;
-    padding: 4px;
+    
 
 }
+
+#sec_part{
+  height: 550px;
+  width: 100%;
+background-image: url(../images/crsl2.jpg); 
+
+
+ background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed;
+}
+
+#sec_part p{
+  color: #ffffff;
+  margin-top: 30px;
+  font-size: 16px;
+  float: left;
+  text-align: justify;
+  
+ 
+}
+
+#sec_part h3{
+  color: #ffffff;
+ 
+  margin: 20px;
+}
+
+
 
 /* About Section End */
