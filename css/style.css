@@ -1710,43 +1710,34 @@ box-shadow: 0 0 2px 1px rgba(40, 108, 131, 0.5);
   text-transform: capitalize;
 text-align: justify;
 color: #969696;
-
- 
-   font-size: 16px; 
-    line-height: 1.666667;
-    
+float: right;
 
 }
 
-#sec_part{
+.txt_port{
   height: 550px;
   width: 100%;
-background-image: url(../images/crsl2.jpg); 
-
-
- background-size: cover;
+  background-image: url(../images/crsl2.jpg);
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
   background-attachment: fixed;
+ 
+
+}
+.about-us h1,h2,p{
+  color: #000!important;
 }
 
-#sec_part p{
+.txt_port h3{
+  margin-top: 20px;
   color: #ffffff;
-  margin-top: 30px;
-  font-size: 16px;
-  float: left;
-  text-align: justify;
   
- 
 }
 
-#sec_part h3{
-  color: #ffffff;
- 
-  margin: 20px;
+.txt_port p{
+  color: #ffffff!important;
 }
-
-
 
 /* About Section End */
